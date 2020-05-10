@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/daterangepicker.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Min Misr</title>
+</head>
+
+<body>
+    <main id="main">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./assets/icons/logo.svg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Create a trip</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EN/EGP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><strong>Login</strong></a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <button class="primary-button my-2 my-sm-0" type="submit">Join Now</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="background_container">
+            <div class="content container">
+                <h1>Find a local</h1>
+                <h2>Enjoy a city like a local</h2>
+            </div>
+            <div class="search_box container">
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-md-4 my-1">
+                            <div class="select_edit">
+                                <img  src="./assets/icons/Icon - search.svg" alt="">
+                                <select class="form-control">
+                                    <option disabled selected hidden >Where are you going?</option>
+                                    <img src="./assets/icons/iconfinder_icon.svg" alt=""><option>Cairo</option>
+                                    <option>Alexandria</option>
+                                    <option>Aswan</option>
+                                    <option>Luxor</option>
+                                    <option>Hurghada</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 my-1">
+                            <div class="date-input">
+                                <img class="float-left mr-2 mt-1" src="./assets/icons/Icon - calendar.svg" alt="">
+                                <input type="text" name="daterange" class="form-control" placeholder="Enter date" >
+                                <img class="float-right arrow mt-3" src="./assets/icons/Icon - arrow-bottom.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-2 my-1">
+                            <div class="select_edit">
+                                <select class="form-control">
+                                    <option>1 Adult</option>
+                                    <option>2 Adult</option>
+                                    <option>3 Adult</option>
+                                    <option>4 Adult</option>   
+                                </select>
+                                <img class="arrow" src="./assets/icons/Icon - arrow-bottom.svg" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="col-auto my-1">
+                            <button type="submit" class="btn-search">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Start our services -->
+    <div class="our_services">
+        <div class="head text-center">
+            <h2>Explore our services</h2>
+            <p>for</p>
+        </div>
+        <ul class="nav nav-tabs container" id="myTab" role="tablist">
+            <li class="nav-item col-sm-4">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Traveler" role="tab"
+                    aria-controls="Traveler" aria-selected="true">Traveler</a>
+            </li>
+            <li class="nav-item col-sm-4">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#Local" role="tab" aria-controls="Local"
+                    aria-selected="false">Local</a>
+            </li>
+            <li class="nav-item col-sm-4">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Travel-agency" role="tab"
+                    aria-controls="Travel-agency" aria-selected="false">Travel agency</a>
+            </li>
+        </ul>
+        <div class="tab-content container" id="myTabContent">
+            <div class="tab-pane fade show active" id="Traveler" role="tabpanel" aria-labelledby="Traveler-tab">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Compare & Choose</h3>
+                            <img src="./assets/icons/Compare.svg" alt="">
+                            <h4>From variety of local , tour guides and travel agencies</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Book your guide</h3>
+                            <img src="./assets/icons/Book.svg" alt="">
+                            <h4>Book your guide 
+                                & enjoy your trip</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Local" role="tabpanel" aria-labelledby="Local-tab">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Travel-agency" role="tabpanel" aria-labelledby="Travel-agency-tab">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                        <div class="col-sm-4 info">
+                            <h3>Search</h3>
+                            <img src="./assets/icons/Search.svg" alt="">
+                            <h4>By destination & activities</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our services -->
+
+    <!-- Start our locals -->
+    <div class="our_locals container">
+        <div class="head">
+            <h2>Our Top Locals</h2>
+            <p>Witness the city through the eyes of a local</p>
+        </div>
+        <div class="row our_locals-margin">
+            <div class="col-lg-4 city">
+                <div class="city-img">
+                    <img class="w-100" src="./assets/images/Ourlocals_section/giza.png" alt="">
+                </div>
+                <div class="city-card">
+                    <h3>Cairo</h3>
+                    <p>Make your eyes at pyramids and write the story of that time
+                        you visit <span>the land of civilization</span>.</p>
+                    <a href="#">Explore things to do</a>
+                </div>
+                <div class="curve-top d-none d-lg-block d-xl-block">
+                    <img src="./assets/icons/curve-1.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Aya.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Aya</h4>
+                        <span>Cairo , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Explore Cairo as a local and discover
+                            the hidden beauty of it!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>10 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>50</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Sara.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Sara</h4>
+                        <span>Cairo , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Ready to touch the beauty here? Let's go ;)
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>5 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>30</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Emad.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Emad</h4>
+                        <span>Cairo , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            lets see Cairo from another spot :)
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>8 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>30</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Hatem.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Hatem</h4>
+                        <span>Cairo , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Seize the moment!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>4 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>15</strong><span>/h</span></p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+
+        <div class="row our_locals-margin">
+            <div class="col-lg-4 d-none d-sm-none d-md-none d-lg-inline d-xl-inline">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Ramy.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Ramy</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Love to make friendships , adventures , are you ready?!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>5 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>40</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Heba.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Heba</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Are You Ready To Discover The Most Beautiful And Warm Country Ever ?!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>6 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>30</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-none d-sm-none d-md-none d-lg-inline d-xl-inline">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Norhan.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Norhan</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            let's share our passion 
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>10 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>20</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Amr.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Amr</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Ready to show around my city...
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>8 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>20</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 city d-none d-sm-none d-md-none d-lg-inline d-xl-inline">
+                <div class="city-img">
+                    <img class="w-100" src="./assets/images/Ourlocals_section/Alex.png" alt="">
+                </div>
+                <div class="city-card">
+                    <h3>Alexandria</h3>
+                    <p>There is a special atmosphere you can only find here
+                        <span>at bride of the Mediterranean Sea</span></p>
+                    <a href="#">Explore things to do</a>
+                </div>
+                <div class="curve-bottom d-none d-lg-block d-xl-block">
+                    <img src="./assets/icons/curve-2.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row our_locals-margin d-lg-none d-xl-none">
+            <div class="col-lg-4 city">
+                <div class="city-img">
+                    <img class="w-100" src="./assets/images/Ourlocals_section/Alex.png" alt="">
+                </div>
+                <div class="city-card">
+                    <h3>Alexandria</h3>
+                    <p>There is a special atmosphere you can only find here
+                        <span>at bride of the Mediterranean Sea</span></p>
+                    <a href="#">Explore things to do</a>
+                </div>
+                <div class="curve-bottom d-none d-lg-block d-xl-block">
+                    <img src="./assets/icons/curve-2.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Ramy.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Ramy</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Love to make friendships , adventures , are you ready?!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>5 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>40</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Heba.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Heba</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Are You Ready To Discover The Most Beautiful And Warm Country Ever ?!
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>6 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>30</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Norhan.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Norhan</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            let's share our passion 
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>10 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>20</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Amr.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Amr</h4>
+                        <span>Alexandria , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Ready to show around my city...
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>8 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>20</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-4 city">
+                <div class="city-img">
+                    <img class="w-100" src="./assets/images/Ourlocals_section/luxor.png" alt="">
+                </div>
+                <div class="city-card">
+                    <h3>luxor</h3>
+                    <p>Many Pharaonic treasures that inspire travelers in mysteries
+                         and fairy tales you can find here at <span>city of the sun</span></p>
+                    <a href="#">Explore things to do</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Nada.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Nada</h4>
+                        <span>Luxor , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Enjoy the city like a local. Keeping it simple & from the heart.
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>14 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>50</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Tarek.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Tarek</h4>
+                        <span>Luxor , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            If I match your activities it’s guaranteed you will be satisfied .
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>5 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>30</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Reem.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Reem</h4>
+                        <span>Luxor , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            Let's talk Let's share experience
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>8 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>20</strong><span>/h</span></p>
+                    </div>
+                </div>
+                <div class="local-card">
+                    <img src="./assets/images/Ourlocals_section/Shady.png" alt="">
+                    <div class="card-head float-right">
+                        <h4>Shady</h4>
+                        <span>Luxor , Egypt</span>
+                    </div>
+                    <div class="content">
+                        <p>
+                            <img src="./assets/icons/quote-start.svg" alt="">
+                            I will show you what behind the scene of Luxor :)
+                            <img src="./assets/icons/quote-end.svg" alt="">
+                        </p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="./assets/icons/star-group.svg" alt="">
+                            <span>8 Reviews</span>
+                        </div>
+                        <p class="float-right">EGP <strong>15</strong><span>/h</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our locals -->
+
+    <!-- Start popular destination -->
+    <div class="popular_dest">
+        <div class="container">
+            <h3>Popular Destination</h3>
+            <div class="row">
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/hurg.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>Hurghada</h4>
+                        <p>100 Tours | 30 locals</p>
+                    </div>
+                </div>
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/Siwa-Oasis-facts.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>Siwa Oasis</h4>
+                        <p>80 Tours | 25 locals</p>
+                    </div>
+                </div>
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/sharm.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>Sharm El Sheikh</h4>
+                        <p>150 Tours | 50 locals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/dahab.png" alt="">    
+                    </div>
+                    <div class="content">
+                        <h4>Dahab</h4>
+                        <p>120 Tours | 45 locals</p>
+                    </div>
+                </div>
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/white.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>White Desert</h4>
+                        <p>60 Tours | 30 locals</p>
+                    </div>
+                </div>
+                <div class="col-md-4 dest-item">
+                    <div class="dest-img">
+                        <img src="./assets/images/Popular destination_section/aswan.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>Aswan</h4>
+                        <p>140 Tours | 55 locals</p>
+                    </div>
+                </div>
+                <a href="#">Show more</a>
+            </div>
+        </div>
+    </div>
+    <!-- End popular destination -->
+
+    <!-- Start popular attraction -->
+    <div class="popular_attract container">
+        <h3>Popular Attraction</h3>
+        <span class="float-right">View More</span>
+        <div class="row">
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/Egyptian Museum.png" alt="">
+                </div>
+                <div class="content">
+                    <h2> Egyptian Museum</h2>
+                </div>
+            </div>
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/Abu Simbel temple.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Abu Simbel temple</h2>
+                </div>
+            </div>
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/Salah El-Din Citadel.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Salah El-Din Citadel</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/Amun Temple.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Amun Temple</h2>
+                </div>
+            </div>
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/valley.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Valley of the Kings</h2>
+                </div>
+            </div>
+            <div class="col-md-4 attract-item">
+                <div class="attract-img">
+                    <img src="./assets/images/Popular attraction_section/Qaitbay Citadel.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Qaitbay Citadel</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End popular attraction -->
+
+    <!-- Start travel agencies -->
+    <div class="travel_agencies container">
+        <h3>Travel Agencies Tours</h3>
+        <span class="view float-right">View More</span>
+        <div class="row">
+            <div class="col-md-4 travel_agency">
+                <div class="company_img">
+                    <img src="./assets/images/Travel agency_section/tour1.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Cairo and Alexandria Tour Package</h4>
+                    <div class="price">
+                        <span>EGP 3000</span>
+                    </div>
+                    <div class="comp_icon">
+                        <img src="./assets/icons/Icon - company.svg" alt=""><i></i>
+                        <span>Damas travel </span>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/icons/star-group.svg" alt="">
+                        <span>(4.7)</span>
+                        <div class="duration float-right">
+                            <img src="./assets/icons/calendar.svg" alt="">
+                            <span>5 Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 travel_agency">
+                <div class="company_img">
+                    <img src="./assets/images/Travel agency_section/tour2.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Wadi El Gemal Protectorate Exploration</h4>
+                    <div class="price">
+                        <span>EGP 2000</span>
+                    </div>
+                    <div class="comp_icon">
+                        <img src="./assets/icons/Icon - company.svg" alt=""><i></i>
+                        <span>Egypt travel </span>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/icons/star-group.svg" alt="">
+                        <span>(4.9)</span>
+                        <div class="duration float-right">
+                            <img src="./assets/icons/calendar.svg" alt="">
+                            <span>3 Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 travel_agency">
+                <div class="company_img">
+                    <img src="./assets/images/Travel agency_section/tour3.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Historical and Classical Vacation in Egypt</h4>
+                    <div class="price">
+                        <span>EGP 5000</span>
+                    </div>
+                    <div class="comp_icon">
+                        <img src="./assets/icons/Icon - company.svg" alt=""><i></i>
+                        <span>Ramasside tours</span>
+                    </div>
+                    <div class="stars">
+                        <img src="./assets/icons/star-group.svg" alt="">
+                        <span>(4.8)</span>
+                        <div class="duration float-right">
+                            <img src="./assets/icons/calendar.svg" alt="">
+                            <span>5 Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End travel agencies -->
+
+    <!-- Start subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-sm-7 content-text">
+                        <p>Subscribe Now & Get 10% discount on all trips</p>
+                        <form class="form-inline">
+                            <div class="form-group mb-2">
+                              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                          </form>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="sub_img">
+                            <img class="float-right" src="./assets/icons/subscribe-design.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End subscribe -->
+
+    <!-- Start blog -->
+    <div class="blog container">
+        <h3>Latest Blog</h3>
+        <span class="view float-right">View More</span>
+        <div class="row">
+            <div class="col-md-4 blog_item">
+                <div class="blog_img">
+                    <img src="./assets/images/Blog_section/blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Cairo and Alexandria Tour Package</h4>
+                    <div class="popular">
+                        <span>Popular</span>
+                    </div>
+                    <div class="writer float-left">
+                        <img src="./assets/images/Blog_section/img1.png" alt="">
+                        <div class="info_content float-right">
+                            <span>Shady</span>
+                            <p>22 Feb 2020</p>
+                        </div>
+                    </div>
+                    <div class="duration float-right">
+                        <img src="./assets/icons/calendar.svg" alt="">
+                        <span>8 min read</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 blog_item">
+                <div class="blog_img">
+                    <img src="./assets/images/Blog_section/blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>4 Extreme Activities You Can Try This Summer in Egypt</h4>
+                    <div class="writer float-left">
+                        <img src="./assets/images/Blog_section/img2.png" alt="">
+                        <div class="info_content float-right">
+                            <span>Mai</span>
+                            <p>25 Feb 2020</p>
+                        </div>
+                    </div>
+                    <div class="duration float-right">
+                        <img src="./assets/icons/calendar.svg" alt="">
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 blog_item">
+                <div class="blog_img">
+                    <img src="./assets/images/Blog_section/blog3.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>When is the best time to visit Egypt</h4>
+                    <div class="writer float-left">
+                        <img src="./assets/images/Blog_section/img3.png" alt="">
+                        <div class="info_content float-right">
+                            <span>Emad</span>
+                            <p>18 Jan 2020</p>
+                        </div>
+                    </div>
+                    <div class="duration float-right">
+                        <img src="./assets/icons/calendar.svg" alt="">
+                        <span>4 min read</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End blog -->
+
+     <!-- Start footer -->
+     <footer>
+        <div class="content container">
+            <div class="row">
+                <div class="col-6 col-sm-3 info">
+                    <h4>Contact us</h4>
+                    <p>Mail</p>
+                    <p>contact@minmisr.com</p>
+                    <div class="contact_icons">
+                        <img src="./assets/icons/Icon - facebook.svg" alt="">
+                        <img src="./assets/icons/Icon - instagram.svg" alt="">
+                        <img src="./assets/icons/Icon - twitter.svg" alt="">
+                        <img src="./assets/icons/Icon - youtube.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 info">
+                    <h4>Support</h4>
+                    <p>Help</p>
+                    <p>FAQ</p>
+                </div>
+                <div class="col-6 col-sm-3 info">
+                    <h4>Polices</h4>
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                    <p>Security</p>
+                </div>
+                <div class="col-6 col-sm-3 info">
+                    <h4>About Min Misr</h4>
+                    <p>Our Story</p>
+                    <h4>Payment Methods</h4>
+                    <div class="payment">
+                        <img src="./assets/icons/visa.svg" alt="">
+                        <img src="./assets/icons/mastercard.svg" alt="">
+                        <img src="./assets/icons/paypal.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="content">
+                <img src="./assets/icons/Icon - copyright.svg" alt="">
+                <span>Min Misr 2020&emsp;All Rights Reserved , Designed & Developed by
+                <strong>Eman Fouad</strong></span>
+            </div>
+        </div>
+        <div class="top_arrow">
+            <a href="#main"><img src="./assets/icons/up-button.svg" alt=""></a>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/daterangepicker.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
