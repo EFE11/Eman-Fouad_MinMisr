@@ -181,6 +181,9 @@ main .search_box .btn-search:hover{
         padding-top: 5%;
         padding-bottom: 3%;
     }
+      main .background_container {
+        height: 40vh;
+    }
     main .content h1{
         font-size: 4rem;
         margin-bottom: 2%;
