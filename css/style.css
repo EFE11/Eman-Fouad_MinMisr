@@ -1,4 +1,5 @@
 /* general */
+
 * {
     margin: 0;
     padding: 0;
@@ -126,12 +127,42 @@ main .search_box .btn-search:hover{
     background-color: #6092AB;
 }
 
-@media(max-width: 500px){
+@media (min-width:320px) and (max-width: 484.98px){
+    main .background_container {
+        height: 60vh;
+    }
+    main .content{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    main .content h1{
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
+    main .content h2{
+        font-size: 1.6rem;
+        margin-bottom: 2%;
+    }
+    main .search_box form .select_edit select {
+        width: 65%;
+    }
+    main .search_box form .select_edit .arrow{
+        margin-left: 25%;
+    }
+    main .search_box form .date-input input {
+        width: 65%;
+    }    
+    main .search_box form .date-input img {
+        margin-right: 3%;
+    }
+    main .search_box .btn-search {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+@media (min-width:485px) and (max-width: 500.98px){
     main .background_container {
         height: 85vh;
-    }
-     main .background_container {
-        height: 35vh;
     }
     main .content{
         padding-top: 3%;
@@ -145,8 +176,14 @@ main .search_box .btn-search:hover{
         font-size: 2.5rem;
         margin-bottom: 2%;
     }
+    main .search_box form .select_edit select {
+        width: 80%;
+    }
     main .search_box form .select_edit .arrow{
-        margin-left: 3.6rem;
+        margin-left: 10%;
+    }
+    main .search_box form .date-input img {
+        margin-right: 6%;
     }
 }
 @media(min-width: 501px ) and ( max-width: 575.98px){
@@ -178,6 +215,15 @@ main .search_box .btn-search:hover{
         font-size: 15px;
         padding: 15px 25px;
     }
+    main .search_box form .select_edit select {
+        width: 80%;
+    }
+    main .search_box form .select_edit .arrow{
+        margin-left: 10%;
+    }
+    main .search_box form .date-input img {
+        margin-right: 6%;
+    }
 }
 @media(min-width:576px) and (max-width: 767.98px){
     main .content{
@@ -207,6 +253,15 @@ main .search_box .btn-search:hover{
     main .search_box .btn-search{
         font-size: 15px;
         padding: 15px 25px;
+    }
+    main .search_box form .select_edit select {
+        width: 80%;
+    }
+    main .search_box form .select_edit .arrow{
+        margin-left: 10%;
+    }
+    main .search_box form .date-input img {
+        margin-right: 6%;
     }
 }
 @media(min-width:768px) and (max-width: 991.98px){
@@ -267,7 +322,7 @@ main .search_box .btn-search:hover{
         padding-top: 12%;
         padding-bottom: 3%;
     }
-     main .background_container {
+    main .background_container {
         height: 35vh;
     }
     main .content h1{
@@ -382,8 +437,31 @@ main .search_box .btn-search:hover{
     font-size: 1.3rem;
     margin-top: 2.3rem;
 }
-
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .our_services {
+        margin-top: 25%;
+        padding: 4rem 0;
+    }
+    .our_services .head h2{
+        font-size: 1.7rem;
+    }
+    .our_services ul li a{
+        font-size: 1.5rem;
+    }
+    .our_services .tab-content .content .info h3{
+        font-size: 1.3rem;
+    }
+    .our_services .tab-content .content .info h4{
+        font-size: 0.9rem;
+    }
+    .our_services .head p::after {
+        width: 8rem;
+    }
+    .our_services .head p::before {
+        width: 8rem;
+    }
+}
+@media(min-width:485px) and (max-width: 500.98px){
     .our_services .head h2{
         font-size: 2.8rem;
     }
@@ -572,7 +650,48 @@ main .search_box .btn-search:hover{
     font-size: 0.93rem;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .our_locals .local-card .card-head{
+        margin-right: 20%;
+        margin-top: 3%;
+        width: 42%;
+    }
+    .our_locals .local-card .card-head h4{
+        font-size: 1.56rem;
+    }
+    .our_locals .local-card .card-head span{
+        display: block;
+        font-size: 0.75rem;
+    }    
+    .our_locals .head{
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+    .our_locals .head h2{
+        font-size:2.3rem;
+    }
+    .our_locals .head p{
+        font-size: 1.4rem;
+    }
+    .our_locals .local-card .content p {
+        padding-top: 0.8rem;
+        font-size: 0.95rem;
+        height: 4rem;
+    }
+    .our_locals .city{
+        margin-bottom: 5%;
+    }
+    .our_locals .city .curve-top img {
+        left: 5rem;
+    }
+    .our_locals .city .curve-bottom img {
+        right: 5rem;
+    }
+    .our_locals-margin {
+        margin-bottom: 2.5rem;
+    }
+}
+@media (min-width:485px) and (max-width: 500.98px){
     .our_locals .city-card {
         margin-bottom: 2rem;
     }
@@ -719,7 +838,49 @@ main .search_box .btn-search:hover{
     cursor: pointer;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .popular_dest{
+        padding: 4rem 0;
+    }
+    .popular_dest h3{
+       font-size: 1.7rem;
+       margin-bottom: 2rem;
+    }
+    .popular_dest .dest-item{
+        margin-left: 3%;
+        margin-bottom: 5%;
+    }
+    .popular_dest .dest-item .content{
+        width: 90.5%;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+    .popular_dest .dest-item .content h4{
+        font-size: 1rem;
+        
+    }
+    .popular_dest .dest-item .content p{
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:360px) and (max-width: 484.98px){
+    .popular_dest .dest-item .content{
+        width: 91.5%;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+}
+@media(min-width:411px) and (max-width: 484.98px){
+    .popular_dest .dest-item .content{
+        width: 92.2%;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+}
+@media(min-width:414px) and (max-width: 484.98px){
+    .popular_dest .dest-item .content{
+        width: 92.5%;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+}
+@media (min-width:485px) and (max-width: 500.98px){
     .popular_dest{
         padding: 4rem 0;
     }
@@ -870,7 +1031,26 @@ main .search_box .btn-search:hover{
     color: #fff;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .popular_attract {
+        margin-top: 2.5rem;
+    }
+    .popular_attract h3{
+        font-size:1.2rem;
+        margin-bottom: 2.2rem;
+    }
+    .popular_attract .attract-item{
+        margin-bottom: 2rem;
+    }
+    .popular_attract span{
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+    }
+    .popular_attract .attract-item .content h2{
+        font-size: 1.65rem;
+    }
+}
+@media (min-width:485px) and (max-width: 500px){
     .popular_attract h3{
         font-size:1.2rem;
         margin-bottom: 2.2rem;
@@ -1038,7 +1218,49 @@ main .search_box .btn-search:hover{
     text-align: end;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .travel_agencies {
+        margin-top: 2.5rem;
+    }
+    .travel_agencies h3{
+        font-size:1.1rem;
+        margin-bottom: 2rem;
+    }
+    .travel_agencies .view{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .travel_agencies .travel_agency{
+        margin-bottom: 6%;
+    }
+    .travel_agencies .travel_agency .price{
+        top: 10%;
+        right: 4.8%;
+    }
+    .travel_agencies .travel_agency .content h4 {
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+    }
+    .travel_agencies .travel_agency .comp_icon span {
+        font-size: 0.8rem;
+    }
+    .travel_agencies .travel_agency .duration span {
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:360px) and (max-width: 484.98px){
+    .travel_agencies .travel_agency .price{
+        top: 10%;
+        right: 3.9%;
+    }
+}
+@media(min-width:411px) and (max-width: 484.98px){
+    .travel_agencies .travel_agency .price{
+        top: 10%;
+        right: 3.7%;
+    }
+}
+@media(min-width:485px) and (max-width: 500.98px){
     .travel_agencies h3{
         font-size:1.2rem;
         margin-bottom: 2rem;
@@ -1184,7 +1406,37 @@ main .search_box .btn-search:hover{
 .subscribe .content form button:hover{
     background-color: #6092AB;
 }
-@media(max-width: 500px){
+
+@media(min-width:320px) and (max-width: 484.98px){
+    .subscribe .content p{
+        font-size: 1rem;
+        margin-bottom: 3.5rem;
+        width: 48%;
+    }
+    .subscribe .content form input{
+       border-radius: 0.625rem 0 0 0.625rem;
+       padding: 1.8rem 0.8rem;
+       width: 10rem;
+    }
+    .subscribe .content form input::placeholder{
+        font-size: 0.8rem;
+    }
+    .subscribe .content form button{
+        padding: 1rem;
+        border-radius: 0 0.625rem 0.625rem 0;
+        font-size: 1rem;
+    }
+    .subscribe .content{
+        position: relative;
+    }
+    .subscribe .content .sub_img img{
+        position: absolute;
+        top: -215px;
+        right: 25px;
+        width: 35%;
+    }
+}
+@media(min-width:485px) and (max-width: 500.98px){
     .subscribe .content p{
         font-size: 1.4rem;
         margin-bottom: 2.5rem;
@@ -1402,7 +1654,48 @@ main .search_box .btn-search:hover{
     cursor: pointer;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    .blog h3{
+        font-size:2rem;
+        margin-bottom: 2rem;
+    }
+    .blog .view{
+        margin-top: 0.5rem;
+    }
+    .blog .blog_item{
+        margin-bottom: 5%;
+    }
+    .blog .blog_item .content h4{
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog .blog_item .content .writer .info_content{
+        margin-left: 0.8rem;
+    }
+    .blog .blog_item .content .writer .info_content span{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .blog .blog_item .content .writer .info_content p{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .blog .blog_item .content .duration{
+        margin-top: 10.999%;
+    }
+    .blog .blog_item .content .duration img{
+        width: 15%;
+    }
+    .blog .blog_item .content .duration span{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+    .blog .blog_item .popular span{
+        padding: 0.4rem 1.1rem;
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:485px) and (max-width: 500.98px){
     .blog h3{
         font-size:1.2rem;
         margin-bottom: 2rem;
@@ -1561,7 +1854,43 @@ footer .copyright .content span strong{
     font-weight: 550;
 }
 
-@media(max-width: 500px){
+@media(min-width:320px) and (max-width: 484.98px){
+    footer .content .info h4{
+        font-size: 0.8rem;
+    }
+    footer .content .info p{
+        font-size: 0.7rem;
+    }
+    footer .content .info .contact_icons{
+        margin-bottom: 3%;
+    }
+    footer .content .info .contact_icons img{
+        margin-right: 0.2rem;
+        width: 8%;
+    }
+    footer .content .info .payment{
+        margin-top: 0.8rem;
+    }
+    footer .content .info .payment img{
+        margin-right: 0.2rem;
+        width: 14%;
+    }
+    footer .copyright .content span{
+        font-size: 0.75rem;
+    }
+    footer .copyright .content img{
+        width: 2.8%;
+    }
+    footer .copyright .content span strong{
+        font-size: 0.6rem;
+    } 
+    footer .top_arrow img{
+        right: 4%;
+        top: -20%;
+        width:5%;
+    }
+}
+@media(min-width:485px) and (max-width: 500.98px){
     footer .content .info h4{
         font-size: 0.8rem;
     }
