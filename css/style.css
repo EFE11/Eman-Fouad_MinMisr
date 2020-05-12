@@ -130,6 +130,9 @@ main .search_box .btn-search:hover{
     main .background_container {
         height: 85vh;
     }
+     main .background_container {
+        height: 35vh;
+    }
     main .content{
         padding-top: 3%;
         padding-bottom: 3%;
@@ -181,9 +184,6 @@ main .search_box .btn-search:hover{
         padding-top: 5%;
         padding-bottom: 3%;
     }
-      main .background_container {
-        height: 40vh;
-    }
     main .content h1{
         font-size: 4rem;
         margin-bottom: 2%;
@@ -213,6 +213,9 @@ main .search_box .btn-search:hover{
     main .content{
         padding-top: 5%;
         padding-bottom: 3%;
+    }
+    main .background_container {
+        height: 35vh;
     }
     main .content h1{
         font-size: 80px;
@@ -263,6 +266,9 @@ main .search_box .btn-search:hover{
     main .content{
         padding-top: 12%;
         padding-bottom: 3%;
+    }
+     main .background_container {
+        height: 35vh;
     }
     main .content h1{
         font-size: 80px;
