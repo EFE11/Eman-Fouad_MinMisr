@@ -1855,6 +1855,9 @@ footer .copyright .content span strong{
 }
 
 @media(min-width:320px) and (max-width: 484.98px){
+    footer .content {
+        padding: 30px 15px 30px 15px;
+    }
     footer .content .info h4{
         font-size: 0.8rem;
     }
@@ -1891,6 +1894,9 @@ footer .copyright .content span strong{
     }
 }
 @media(min-width:485px) and (max-width: 500.98px){
+    footer .content {
+        padding: 30px 15px 30px 15px;
+    }
     footer .content .info h4{
         font-size: 0.8rem;
     }
@@ -1925,6 +1931,9 @@ footer .copyright .content span strong{
 }
 
 @media(min-width: 501px ) and ( max-width: 575.98px){
+    footer .content {
+        padding: 30px 15px 30px 15px;
+    }
     footer .content .info h4{
         font-size: 0.8rem;
     }
